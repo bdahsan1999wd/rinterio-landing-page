@@ -1,4 +1,6 @@
 /* ----------Google Fonts Added---------- */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+/* font-family: "Manrope", sans-serif; */
 
 @import "tailwindcss";
 @source "./public/*.{html,js}"; /*----- Directs Tailwind to scan your HTML and JS files for Tailwind classes -----*/
@@ -8,4 +10,5 @@
 
 /* ----------CSS Custom Styles Added---------- */
 @theme {
+  --font-primary: "Manrope", sans-serif;
 }
