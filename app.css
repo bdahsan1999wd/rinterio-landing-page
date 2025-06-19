@@ -1,0 +1,11 @@
+/* ----------Google Fonts Added---------- */
+
+@import "tailwindcss";
+@source "./public/*.{html,js}"; /*----- Directs Tailwind to scan your HTML and JS files for Tailwind classes -----*/
+@plugin "daisyui" {
+  themes: all; /*----- Imports all DaisyUI themes -----*/
+}
+
+/* ----------CSS Custom Styles Added---------- */
+@theme {
+}
