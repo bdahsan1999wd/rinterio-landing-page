@@ -22,10 +22,10 @@
 <body class="font-primary">
 
     <!---------- Heading Section Added ---------->
-    <header class="md:w-11/12 mx-auto outline">
+    <header class="w-11/12 mx-auto outline">
 
         <!---------- Navbar Added ---------->
-        <div class="navbar justify-between items-center py-4">
+        <div class="navbar justify-between items-center py-4 outline">
 
             <!----- Left Logo ----->
             <div class="navbar-start">
@@ -93,9 +93,9 @@
                     sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the
                     space with natural light.</p>
 
-                <button>
+                <button class="">
                     <a href="#"
-                        class="text-lg md:text-xl lg:text-2xl font-extrabold bg-main/50 rounded-full p-3 text-black flex items-center gap-2">
+                        class="text-lg md:text-xl lg:text-2xl font-extrabold bg-main/50 rounded-full px-6 py-2 text-black flex items-center gap-2">
                         View Details
                         <i class="fa-solid fa-arrow-right -rotate-45 bg-main rounded-full p-2"></i>
                     </a>
@@ -108,11 +108,74 @@
     </header>
 
     <!---------- Main Section Added ---------->
-    <main>
+    <main class="bg-gray-100 mt-[100px] outline outline-red-600">
 
         <!---------- Commercial & Residential Projects Section Added ---------->
-        <section>
-            
+        <section class="pt-[100px]">
+
+            <div class="w-11/12 mx-auto outline outline-green-500 flex flex-col lg:flex-row items-center gap-9 mb-20">
+
+                <!----- Left Content ----->
+                <div class="text-center lg:text-left w-full outline outline-blue-500 relative">
+                    <img class="absolute -top-14 -left-14 opacity-75 hidden lg:block" src="../assets/Vector.png"
+                        alt="vector logo">
+
+
+                    <button class="bg-white py-2 px-4 rounded-full font-bold text-black/75 cursor-pointer">
+                        <i class="fa-solid fa-arrow-right-long"></i> About Us
+                    </button>
+
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-14 mt-4 ">
+                        We design thoughtful, <br>
+                        liveable spaces
+                    </h2>
+                    <p class="text-black/75 font-medium mt-6 ">
+                        The barn house captivates with its blend of rustic charm and <br> modern sophistication,
+                        featuring weathered wood, sleek metal accents, <br> and large windows that flood the
+                        space with natural light.
+                    </p>
+
+                    <!----- Cards Section ----->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4 mt-6">
+
+                        <!----- Commercial Card ----->
+                        <div class="bg-white rounded-2xl p-6 flex items-center gap-6 lg:mb-6 ">
+
+                            <img src="../assets/commercial.png" alt="commercial image">
+
+                            <div class="text-start">
+                                <h3 class="text-xl font-extrabold mb-2.5">Commercial</h3>
+                                <p class="text-black/50 font-medium">
+                                    The barn house captivates with a blend <br> of rustic charm and modern...
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <!----- Residential Card ----->
+                        <div class="bg-white rounded-2xl p-6 flex items-center gap-6">
+                            <img src="../assets/residential.png" alt="residential image">
+
+                            <div class="text-start">
+                                <h3 class="text-xl font-extrabold mb-2.5">Residential</h3>
+                                <p class="text-black/50 font-medium">
+                                    The barn house captivates with its balance <br> of rustic character and modern...
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!----- Right Image ----->
+                <div class="w-full md:w-5/6 lg:w-4/6 rounded-2xl outline-blue-500">
+                    <img class="w-full" src="../assets/Rectangle.png" alt="Rectangle image">
+                </div>
+
+            </div>
+
         </section>
 
     </main>
