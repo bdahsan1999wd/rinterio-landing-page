@@ -273,75 +273,99 @@
         </section>
 
         <!---------- Our Latest Portfolio Section Added ---------->
-        <section class="w-11/12 mx-auto bg-white outline mb-20">
+        <section class="lg:bg-white py-16 md:py-24">
 
-            <!----- Section Header Added ----->
-            <div class="text-center mb-9 outline">
-                <button class="bg-lime-100 py-2 px-4 rounded-full font-bold text-black/75 cursor-pointer">
-                    <i class="fa-solid fa-arrow-right-long mr-1"></i> Explore our Latest works
-                </button>
-                <h2 class="text-3xl md:text-4xl lg:text-[40px] font-extrabold mt-4">Our Latest Portfolio</h2>
-                <p class="mt-6 text-black/75">
-                    The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring
-                    weathered wood, sleek metal accents.
-                </p>
-            </div>
+            <div class="w-11/12 mx-auto outline outline-amber-500">
 
-            <!----- Portfolio Grid Card Added ----->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 auto-rows-fr">
+                <!----- Section Header Added ----->
+                <div class="text-center mb-9">
+                    <button class="bg-lime-100 py-2 px-4 rounded-full font-bold text-black/75 cursor-pointer">
+                        <i class="fa-solid fa-arrow-right-long mr-1"></i> Explore our Latest works
+                    </button>
+                    <h2 class="text-3xl md:text-4xl lg:text-[40px] font-extrabold mt-4">Our Latest Portfolio</h2>
+                    <p class="mt-6 text-black/75">
+                        The barn house captivates with its blend of rustic charm and modern sophistication,
+                        <br>featuring
+                        weathered wood, sleek metal accents.
+                    </p>
+                </div>
 
-                <!-- Card 1 -->
-                <div
-                    class="bg-white border rounded-2xl p-4 shadow-sm col-span-1 lg:col-span-2 flex flex-col md:flex-row gap-4 items-center">
-                    <img src="../assets/img-1.png" alt="img-1" class="rounded-lg w-full md:w-1/2 object-cover">
+                <!---------- Portfolio Grid Card Section Added ---------->
+                <div class="grid gap-6">
 
-                    <div class="flex flex-col justify-between">
-                        <div>
-                            <h3 class="text-xl font-bold mb-2">Commercial</h3>
-                            <p class="text-black/60 mb-4">
-                                The barn house captivates with its blend of rustic charm and modern. The barn house
-                                captivates with its blend of rustic charm and modern.
-                            </p>
+                    <!---------- 1st card row Added ---------->
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+                        <!-- Card 1 -->
+                        <div class="lg:col-span-2">
+
+                            <div
+                                class="bg-white border border-gray-200 rounded-2xl p-4 flex flex-col md:flex-row gap-6 items-center">
+
+                                <img src="../assets/img-1.png" alt="img-1" class="rounded-2xl w-full sm:w-auto">
+
+                                <div>
+                                    <h3 class="text-2xl text-[#494949] font-extrabold mb-4">Commercial</h3>
+                                    <p class="text-black/60 font-medium mb-5">
+                                        The barn house captivates with its blend of rustic charm <br>and modern. The
+                                        barn
+                                        house
+                                        captivates with its blend of <br> rustic charm and modern .
+                                    </p>
+                                    <a href="#" class="text-xl font-extrabold flex items-center gap-2.5">
+                                        View Details
+                                        <i
+                                            class="fa-solid fa-arrow-right -rotate-45 bg-lime-200 rounded-full p-2.5"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
                         </div>
-                        <a href="#" class="text-lg font-extrabold text-black flex items-center gap-2">
-                            View Details
-                            <i class="fa-solid fa-arrow-right -rotate-45 bg-lime-200 rounded-full p-2"></i>
-                        </a>
+
+                        <!-- Card 2 -->
+                        <div class="lg:col-span-1">
+                            <div class="bg-white border border-gray-200 rounded-2xl p-4">
+                                <img src="../assets/img-2.png" alt="img-2" class="rounded-2xl w-full sm:w-auto">
+                            </div>
+                        </div>
+
                     </div>
 
-                </div>
+                    <!---------- 2nd card row Added ---------->
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
 
-                <!-- Card 2 -->
-                <div class="bg-white border rounded-2xl p-4">
-                    <img src="../assets/img-2.png" alt="img-2" class="rounded-lg object-cover w-full">
-                </div>
-
-                <!-- Card 3 -->
-                <div class="bg-white border rounded-2xl p-4">
-                    <img src="../assets/img-3.png" alt="img-3" class="rounded-lg object-cover w-full">
-                </div>
-
-                <!-- Card 4 -->
-                <div
-                    class="bg-white border rounded-2xl p-4 shadow-sm col-span-1 lg:col-span-2 flex flex-col md:flex-row gap-4 items-center">
-                    <img src="../assets/img-4.png" alt="img-4" class="rounded-lg w-full md:w-1/2 object-cover">
-                    <div class="flex flex-col justify-between">
-                        <div>
-                            <h3 class="text-xl font-bold mb-2">Commercial</h3>
-                            <p class="text-black/60 mb-4">
-                                The barn house captivates with its blend of rustic charm and modern.
-                            </p>
+                        <!-- Card 3 -->
+                        <div class="bg-white border border-gray-200 rounded-2xl p-4 lg:col-span-3">
+                            <img src="../assets/img-3.png" alt="img-3" class="rounded-2xl w-full sm:w-auto">
                         </div>
-                        <a href="#" class="text-lg font-extrabold text-black flex items-center gap-2">
-                            View Details
-                            <i class="fa-solid fa-arrow-right -rotate-45 bg-lime-200 rounded-full p-2"></i>
-                        </a>
-                    </div>
-                </div>
 
-                <!-- Card 5 -->
-                <div class="bg-white border rounded-2xl p-4 shadow-sm">
-                    <img src="../assets/img-5.png" alt="img-5" class="rounded-lg object-cover w-full">
+                        <!-- Card 4 -->
+                        <div
+                            class="bg-white border border-gray-200 rounded-2xl p-4 flex flex-col md:flex-row gap-6 items-center lg:col-span-6">
+
+                            <img src="../assets/img-4.png" alt="img-4" class="rounded-2xl w-full sm:w-auto">
+
+                            <div>
+                                <h3 class="text-2xl text-[#494949] font-extrabold mb-4">Commercial</h3>
+                                <p class="text-black/60 font-medium mb-5">
+                                    The barn house captivates with its blend of rustic charm and modern.
+                                </p>
+                                <a href="#" class="text-xl font-extrabold flex items-center gap-2.5">
+                                    View Details
+                                    <i class="fa-solid fa-arrow-right -rotate-45 bg-lime-200 rounded-full p-2.5"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="bg-white border border-gray-200 rounded-2xl p-4 lg:col-span-3">
+                            <img src="../assets/img-5.png" alt="img-5" class="rounded-2xl w-full sm:w-auto">
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
