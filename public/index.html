@@ -594,8 +594,39 @@
                 Book Consult
                 <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-2.5"></i>
             </button>
+
+            <!----- Copyright ----->
+            <p class="text-white/75 mt-8">&copy; <span id="year-range"></span> - All Rights Reserved by Ahsan Habib.
+            </p>
+
         </footer>
+
     </section>
+
+    <!----- JavaScript Added (Create to Current) Dynamic Year Update ----->
+    <script>
+
+        // -----Website launch year-----
+        const createdYear = 2025;
+
+        // -----Get the current year from the system-----
+        const currentYear = new Date().getFullYear();
+
+        // -----Initialize the year range string-----
+        let yearRange = "";
+
+        // -----If the website was created this year, show only that year Otherwise, show a range like "2025–2026"-----
+        if (createdYear === currentYear) {
+            yearRange = `${createdYear}`;
+        }
+        else {
+            yearRange = `${createdYear}-${currentYear}`;
+        }
+
+        // -----Update the year range into the footer span with ID "year-range"-----
+        document.getElementById("year-range").textContent = yearRange;
+
+    </script>
 
 </body>
 
