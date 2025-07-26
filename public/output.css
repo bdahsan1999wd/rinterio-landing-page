@@ -1438,6 +1438,15 @@
   .z-\[1\] {
     z-index: 1;
   }
+  .order-1 {
+    order: 1;
+  }
+  .order-2 {
+    order: 2;
+  }
+  .order-3 {
+    order: 3;
+  }
   .drawer-content {
     grid-column-start: 2;
     grid-row-start: 1;
@@ -2392,6 +2401,11 @@
       gap: calc(var(--spacing) * 24);
     }
   }
+  .md\:order-none {
+    @media (width >= 48rem) {
+      order: 0;
+    }
+  }
   .md\:block {
     @media (width >= 48rem) {
       display: block;
@@ -2502,6 +2516,11 @@
     @media (width >= 48rem) {
       font-size: var(--text-xl);
       line-height: var(--tw-leading, var(--text-xl--line-height));
+    }
+  }
+  .lg\:order-none {
+    @media (width >= 64rem) {
+      order: 0;
     }
   }
   .lg\:col-span-1 {
